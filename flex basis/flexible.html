@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.container{
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row nowrap; /* Os itens não quebram linha mesmo se faltar espaço */
+            
+
+        }
+
+        div.item{
+            background-color: lightseagreen;
+            border:1px solid black;
+            text-align: center;
+            flex-basis: 250px; /* Tamanho base dos elementos dentro do contsiner */
+            flex-shrink: 1; /* Controla quanto um item pode encolher. */
+            flex-grow: 1; /* O item não cresce se estiver 0. */
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+       
+    
+    
+    
+       </div> 
+</body>
+</html>
