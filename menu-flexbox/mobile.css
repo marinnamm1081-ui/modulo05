@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Para dispositivo móvel */
+
+
+
+
+
+header, header > nav {
+
+    flex-flow: column nowrap;
+    
+}
+
+
+header > h1 {
+   flex-basis: 50px;
+   text-align: center
+   
+    
+
+}
+header > nav > a {
+    width: 80vw;
+    text-align: center;
+    
+    
+
+}
