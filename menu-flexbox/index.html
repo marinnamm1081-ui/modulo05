@@ -26,9 +26,10 @@
         flex-flow: row wrap; /*  (ROW) Os elementos ficam em linha (horizontal)
         Da esquerda → para a direita. (WRAP) Se não couberem na mesma linha... Eles quebram para a próxima linha.*/
 
-        justify-content: space-between; /* controlar o espaçamento horizontal entre os elementos. */
+        justify-content: center; /* controlar o espaçamento horizontal entre os elementos. */
         align-items: center;
         flex: 0 0 200px; /* flex-grow + flex-shrink + flex-basis. */
+      
 
         
        }
@@ -36,9 +37,9 @@
         margin: 10px;
         text-decoration: none;
         color: rgb(37, 18, 18);
-        margin: 5px;
         border-radius: 10px;
         padding: 20px;
+        background-color:dimgrey;
 
        }
        header > nav{
@@ -47,20 +48,22 @@
        }
        header > nav > a:hover{
         color: blue;
-        background-color: beige;
-        transition: .5s;
+        background-color:rgba(119, 136, 153, 0.579);
+        transition: 1s;
         
         
        }
        main{
         background-color: rgba(255, 255, 255, 0.533);
         padding: 20px;
-        margin: 10px;
+        margin: 50px;
         text-indent: 20px;
+        text-align: center;
        }
        h1{
         margin-bottom: 20px;
         line-height: 1.2em;
+        text-align: center;
        }
        
     </style>
@@ -80,8 +83,9 @@
     <main>
        <h1>Teste de flexbox</h1>
         <p>
-             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat nam eligendi repellat. Sequi fuga,
-             deserunt nemo perferendis saepe assumenda excepturi? Id tenetur reprehenderit voluptas aut illum. 
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+              Quaerat nam eligendi repellat. Sequi fuga,<br>
+             deserunt nemo perferendis saepe assumenda excepturi? <br> Id tenetur reprehenderit voluptas aut illum. <br> 
              Suscipit necessitatibus magnam porro.
         </p>
     </main>
