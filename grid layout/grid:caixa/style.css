@@ -5,7 +5,12 @@ juntando:
 *linha de início
 *coluna de início
 *linha de fim
-*coluna de fim .*/
+*coluna de fim
+
+Exemplo: 
+Grid-area: 1 / 1/ 2 / 5; 
+
+*/
      
     /* Simplificação */
 
