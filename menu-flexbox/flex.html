@@ -39,19 +39,19 @@
             background-color: rgba(128, 128, 128, 0.688);
             padding: 10px;
         
-            flex: row wrap;
-            flex-wrap: nowrap;
+            flex: row wrap;  /* Usado em itens filhos (qubra linha).*/
+            flex-wrap: nowrap; /* (Não qubra linha) Tudo na mesma linha, mesmo apertado.*/
         }
     
         article.text-media{
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row wrap; /* Itens em linha + quebra automática.*/
             padding-top: 40px;
         }
         article.media-text{
             display: flex;
-            flex-flow: row wrap-reverse;
-            justify-content: space-between;
+            flex-flow: row wrap-reverse; /* Ficam lado a lado e quebra linha invertido a ordem da linhas.*/
+            justify-content: space-between; /* Espaço entre os itens.*/
             
         }
         article > div.text{
