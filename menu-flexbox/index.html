@@ -26,8 +26,8 @@
         flex-flow: row wrap; /*  (ROW) Os elementos ficam em linha (horizontal)
         Da esquerda → para a direita. (WRAP) Se não couberem na mesma linha... Eles quebram para a próxima linha.*/
 
-        justify-content: center; /* controlar o espaçamento horizontal entre os elementos. */
-        align-items: center;
+        justify-content: center; /*(Centraliza) controlar o espaçamento horizontal entre os elementos. */
+        align-items: center; /* Alinhar os itens no eixo cruzado.*/
         flex: 0 0 200px; /* flex-grow + flex-shrink + flex-basis. */
       
 
@@ -46,7 +46,7 @@
        }
        header > nav{
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: row wrap; /* Coloca itens em linha e quebra quando precisar.*/
         margin-left: 50px; /* Espaçamento entre o H1 e o NAV. */
        }
        header > nav > a:hover{
