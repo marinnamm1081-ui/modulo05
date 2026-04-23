@@ -1,0 +1,40 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: blue;
+}
+header{
+    background-color: rgba(100, 148, 237, 0.345);
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens no final do container.*/
+    align-content: center;
+
+}
+nav#menu ul{
+    list-style: none;
+    padding: 10px;
+    display: flex; /* É uma forma de organizar os elemento dentro de um container, deixando eles mais fáceis de alinhar e posicionar.*/
+    gap: 10px; /* Serve para criar um espaço entre os itens do grid*/
+    
+}
+nav#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600; /* Define a espessura (grossura) da fonte.*/
+    border-radius: 5px;
+    padding: 12px 15px;
+
+}
+nav#menu a:hover{
+    background-color: rgba(122, 122, 241, 0.38);
+    padding: 5px;
+    transition-duration: 1s;
+    
+}
