@@ -5,9 +5,33 @@
     padding: 0;
 }
 
-body{
-    color: blue;
+h1{
+ margin:15px 0;
+ text-align: center;
+ height: 10px;
 }
+ 
+
+
+  a{
+    flex: auto;
+    
+    color: rgba(31, 31, 163, 0.646);
+    width: 30px;
+ }
+ main{
+
+    display: grid;
+    grid-template-columns:  auto 90%vw auto;
+   
+ }
+  p{
+    padding: 40px;
+    text-align: center;
+    text-indent: 20px;
+ }
+
+
 header{
     background-color: rgba(100, 148, 237, 0.345);
     color: black;
@@ -16,6 +40,20 @@ header{
     justify-content: flex-end; /* Alinha os itens no final do container.*/
     align-content: center;
 
+}
+#ficha h1{
+    padding: 20px;
+}
+#ficha img.foto{
+    width: 250px;
+    aspect-ratio: 1/1; /* Fica um quadradinho achatado.*/
+    object-fit:inherit ; /* Serve para controlar como uma imagem se ajusta dentro de um container.*/
+    border-radius: 50%;
+    border: 5px solid rgba(231, 122, 79, 0.756);
+    outline: 5px solid rgba(10, 1, 1, 0.471); /* É uma linha que fica ao redr de um elemento.*/
+    display: block;
+    margin: auto;
+    margin-top: 25px;
 }
 nav#menu ul{
     list-style: none;
@@ -37,4 +75,21 @@ nav#menu a:hover{
     padding: 5px;
     transition-duration: 1s;
     
+}
+div#social a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+   width: 0;
+   height: 0;
+
+   padding: 15px;
+   margin: 0;
+
+}
+#social{
+    text-align: center;
+    margin-bottom: 20px;
 }
