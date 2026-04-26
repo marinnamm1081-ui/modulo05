@@ -22,13 +22,20 @@ h1{
  main{
 
     display: grid;
-    grid-template-columns:  auto 90%vw auto;
+    grid-template-columns:  auto 90%vw auto; /* Essa propriedade define quantas colunas o grid vai ter e o tamanho de cada uma.*/
    
  }
   p{
     padding: 40px;
-    text-align: center;
-    text-indent: 20px;
+    font-size: 25px;
+    text-indent: 20px; /* Espaço do parágrafo.*/
+    line-height: 35px;
+    display: flex;
+    text-align: justify; /* Serve para alinhar o texto dos dois lados.*/
+    justify-content: center; /* Centraliza o texto.*/
+
+    
+
  }
 
 
@@ -38,7 +45,7 @@ header{
     padding: 10px;
     display: flex;
     justify-content: flex-end; /* Alinha os itens no final do container.*/
-    align-content: center;
+    align-content: flex-end; /* Joga para baixo.*/
 
 }
 #ficha h1{
@@ -92,4 +99,27 @@ div#social a{
 #social{
     text-align: center;
     margin-bottom: 20px;
+}
+#detalhes{
+
+}
+article{
+    padding: 20px;
+    background-color: rgba(255, 250, 205, 0.424);
+    margin-bottom:20px;
+    border-radius: 8px;
+}
+#video{
+    position: relative;
+    width: 100%; /* Largura */
+    margin: auto;
+    aspect-ratio: 16/9; /* Video deitado.*/
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+iframe{
+    position: absolute;
+    
 }
